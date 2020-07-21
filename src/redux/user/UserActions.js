@@ -42,7 +42,7 @@ export const signUpStart = (userCredentials) => ({
 });
 
 export const signUpSuccess = ({ user, additionalData }) => ({
-    type: UserActionTypes.SIGN_OUT_SUCCESS,
+    type: UserActionTypes.SIGN_UP_SUCCESS,
     payload: {user, additionalData}
 });
 
